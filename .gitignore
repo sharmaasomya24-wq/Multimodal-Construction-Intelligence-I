@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.local
+secrets.toml
+
+# Streamlit runtime data
+.streamlit/*.secret.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output & Temp reports
+*.log
